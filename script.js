@@ -1,7 +1,9 @@
+const banner = document.getElementById('#banner');
+
 // Fade in the female character
 const femaleCharacter = document.querySelector('.female-character');
 femaleCharacter.style.opacity = 0;
-femaleCharacter.style.transform = 'translateX(-150%) translateY(-50%)';
+femaleCharacter.style.transform = 'translateX(-200%) translateY(-50%)';
 femaleCharacter.style.transition = 'opacity 1s ease-in';
 
 setTimeout(() => {
@@ -43,7 +45,7 @@ setTimeout(() => {
 // Fade in the subheadline
 const subheadline = document.querySelector('.subheadline');
 subheadline.style.opacity = 0;
-subheadline.style.transform = 'translateX(-150%) translateY(-50%)';
+subheadline.style.transform = 'translateX(-200%) translateY(-50%)';
 subheadline.style.transition = 'opacity 1s ease-in';
 
 setTimeout(() => {
@@ -54,7 +56,7 @@ setTimeout(() => {
 // Fade in the Learn More button
 const learnMoreBtn = document.querySelector('.learnmore-btn');
 learnMoreBtn.style.opacity = 0;
-learnMoreBtn.style.transform = 'translateX(-150%) translateY(-50%)';
+learnMoreBtn.style.transform = 'translateX(-200%) translateY(-50%)';
 learnMoreBtn.style.transition = 'opacity 1s ease-in';
 
 setTimeout(() => {
@@ -76,7 +78,7 @@ setTimeout(() => {
 // Fade in the replay button
 const replayBtn = document.querySelector('.replay-btn');
 replayBtn.style.opacity = 0;
-replayBtn.style.transform = 'translateX(-150%) translateY(-50%)';
+replayBtn.style.transform = 'translateX(-200%) translateY(-50%)';
 replayBtn.style.transition = 'opacity 1s ease-in';
 
 setTimeout(() => {
@@ -88,3 +90,4 @@ setTimeout(() => {
 replayBtn.addEventListener('click', () => {
   window.location.reload('#banner');
 });
+
