@@ -1,8 +1,12 @@
 * {
     box-sizing: border-box;
     margin: 0;
-    border: 1px solid red;
-    /* overflow: hidden; */
+    /* border: 1px solid red; */
+    overflow: hidden;
+}
+
+body {
+    background-color: black;
 }
 
 .banner {
@@ -10,22 +14,30 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    max-width: 1320px;
     width: 100vw;
     height: 100vh;
-    /* background-color: black; */
+    background-color: #107dcf;
     text-align: center;
+    overflow: hidden;
 }
 
-.background, .female-character, .headline1, .headline2, .subheadline, .logo, .learnmore-btn, .replay-btn {
+.background {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     max-width: 100vw;
     max-height: 100vh;
+    z-index: 1;
 }
 
-.background {
-    z-index: -1;
+.female-character, .headline1, .headline2, .subheadline, .logo, .learnmore-btn, .replay-btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 100vw;
+    max-height: 100vh;
+    z-index: 2;
 }
-
